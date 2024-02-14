@@ -3,7 +3,7 @@ const accordionData = {
         "list" : [
             {
                 "name": "Inicio",
-                "page": "/pages/home.html"
+                "page": "pages/home.html"
             }
         ]       
     },
@@ -11,15 +11,15 @@ const accordionData = {
         "list" : [
             {
                 "name": "Principal",
-                "page": "/pages/start.html"
+                "page": "pages/start.html"
             },
             {
                 "name": "Crear entrada",
-                "page": "/pages/create.html"
+                "page": "pages/create.html"
             },
             {
                 "name": "Configuracion",
-                "page": "/pages/settings.html"
+                "page": "pages/settings.html"
             }
         ] 
     },
@@ -27,19 +27,19 @@ const accordionData = {
         "list" : [
             {
                 "name": "Problema",
-                "page": "/pages/docs/prob.html"
+                "page": "pages/docs/prob.html"
             },
             {
                 "name": "Doc. Tecnica",
-                "page": "/pages/docs/tec.html"
+                "page": "pages/docs/tec.html"
             },
             {
                 "name": "Conclusion",
-                "page": "/pages/docs/conclu.html"
+                "page": "pages/docs/conclu.html"
             },
             {
                 "name": "Bibliografia",
-                "page": "/pages/docs/biblio.html"
+                "page": "pages/docs/biblio.html"
             }
         ]
     }

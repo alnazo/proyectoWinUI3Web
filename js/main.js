@@ -1,5 +1,5 @@
 window.onload = function() {
-    loadContent('/pages/home.html');
+    loadContent('pages/home.html');
 }
 
 function loadContent(page) {
