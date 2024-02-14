@@ -1,0 +1,99 @@
+<div class="p-0 mt-3 ms-3">
+    <h2>Documentacion tecnica</h2>
+
+    <ul>
+        <li>
+            <h3>Sitio.cs</h3>
+        </li>
+    </ul>
+
+    <p>
+        La clase principal donde marcamos los datos que vamos a trabajar en la estructuracion de los datos.
+    </p>
+
+    <div class="row justify-content-center">
+        <div class="accordion col-6" id="accordion-site">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" onclick="loadSitioCS()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSite" aria-expanded="true" aria-controls="collapseSite">
+                        Sitio.cs
+                    </button>
+                </h2>
+                <div id="collapseSite" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion-site">
+                    <div class="accordion-body">
+                        <code id="SitioCS"></code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="mt-3">
+        En esta clase se ha definido un metodo de auto-incremento a una Id para poder realizar posteriormente una logica de trabajo mas comoda que la intervencion de obtener el index de la tabla,
+        ya que si la tabla es ordenada de forma diferente e intentamos realizar un eliminado de datos o modificacion, podriamos obtener otra entrada que no es la que nos interesa.
+    </p>
+
+    <ul>
+        <li>
+            <h3>Logica.cs</h3>
+        </li>
+    </ul>
+
+    <p>
+        La clase donde vamos a trabajar la logica de datos con la que mostraremos la lista de objetos.
+        <br><br>
+        Esta actualmente para la demostracion disponemos los datos en memoria mediante un <code>ObservableCollection</code> 
+        el cual nos permite listar los objetos que se indiquen, ademas de una lista de objetos adjuntada a mano.
+        <br>
+        <sub>*todos los datos que estan en el proyecto son datos de lugares reales, junto a una valoracion personal y aproximada</sub>
+
+    </p>
+
+    <div class="row justify-content-center">
+        <div class="accordion col-6" id="accordion-logica">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" onclick="loadLogicaCS()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogica" aria-expanded="true" aria-controls="collapseLogica">
+                        Logica.cs
+                    </button>
+                </h2>
+                <div id="collapseLogica" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion-logica">
+                    <div class="accordion-body">
+                        <code id="LogicaCS"></code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ul>
+        <li>
+            <h3>MainPage.xaml.cs</h3>
+        </li>
+    </ul>
+
+    <p>
+        La logica que hemos creado anteriormente debemos mostrarla de alguna forma, una de las clases mas importantes es la MainPage, en esta trabajamos la adicion de los datos
+        generados dentro de la clase Logica.cs para aderirla a la DataGrid para que nos muestre la tabla.
+        <br><br>
+        Tambien tenemos definido los metodos para la ordenacion de la tabla por columnas y las acciones para derivar la informacion de los botones Editar y Eliminar.
+    </p>
+
+    <div class="row justify-content-center">
+        <div class="accordion col-6" id="accordion-mainpage">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" onclick="loadMainPageCS()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMainPage" aria-expanded="true" aria-controls="collapseMainPage">
+                        MainPage.xaml.cs
+                    </button>
+                </h2>
+                <div id="collapseMainPage" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion-mainpage">
+                    <div class="accordion-body">
+                        <code id="MainPageCS"></code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,70 @@
+:root {
+    padding: 0;
+    margin: 0;    
+}
+
+* {
+    font-family: Bitter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+img {
+    align-items: center;
+}
+
+code {
+    color: #36aa40 !important;
+}
+
+.anchor-clear {
+    text-decoration: none;
+}
+
+.or-color {
+    color: #E8710A;
+}
+
+#sidebar{
+    background-color: #182839;
+
+    & 
+    .accordion-button {
+        color: white;
+        background-color: #122235;
+    }
+
+    &
+    .bg-accordion-menu {
+        color: white;
+        background-color: #183150;
+
+        & 
+        .menu-anchor {
+            color: white;
+        }
+    }
+}
+
+#content {
+    background-color: #184375;
+    color: white;
+}
+
+.title{
+    text-shadow: 3px 3px #182839;
+}
+
+#accordion-site, #accordion-logica, #accordion-mainpage {
+    & .accordion-button {
+        background-color: #182839;
+        color: white;
+    }
+
+    & .accordion-body {
+        background-color: #122235;
+    }
+}
